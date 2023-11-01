@@ -1,0 +1,23 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.home-icon {
+  font-size: 100px;
+}
+
+.contacto-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.form-label {
+  min-width: 1000px;
+}
