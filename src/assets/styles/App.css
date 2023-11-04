@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 50px;
+  margin: 100px;
 }
 
 .home-icon {
@@ -20,4 +20,34 @@
 
 .form-label {
   min-width: 1000px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+
+.link:hover {
+  color: rgb(96, 96, 96);
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 200px;
+}
+
+.error h1 {
+  font-size: 80px;
+}
+
+.error p {
+  font-size: 20px;
 }

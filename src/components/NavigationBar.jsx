@@ -8,22 +8,16 @@ function NavigationBar() {
   return (
     <Navbar expand="lg" className="bg-dark">
       <Container className="navbar bg-dark border-body" data-bs-theme="dark">
-        <Navbar.Brand href="#home">Happy Cake 🍰</Navbar.Brand>
+        <Navbar.Brand className="title" href="#home">
+          Happy Cake 🍰
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav data-bs-theme="dark">
-            <Link
-              to={{
-                pathname: "/",
-              }}
-            >
+            <Link className="link" to="/">
               🏠Home
             </Link>
-            <Link
-              to={{
-                pathname: "/Contacto",
-              }}
-            >
+            <Link className="link" to="/contacto">
               📔Contacto
             </Link>
           </Nav>
